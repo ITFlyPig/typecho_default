@@ -525,7 +525,6 @@ Typecho_Cookie::set('__typecho_lang', $lang);
                                     try {
                                         $installDb->query('SELECT 1=1');
                                     } catch (Typecho_Db_Adapter_Exception $e) {
-                                        printf($e);
                                         $success = false;
                                         echo '<p class="message error">'
                                         . _t('对不起，无法连接数据库，请先检查数据库配置再继续进行安装') . '</p>';

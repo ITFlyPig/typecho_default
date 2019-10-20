@@ -219,7 +219,6 @@ abstract class Typecho_Widget
             $widget = new $className($requestObject, $responseObject, $params);
 
             $widget->execute();
-
             self::$_widgetPool[$alias] = $widget;
         }
 
