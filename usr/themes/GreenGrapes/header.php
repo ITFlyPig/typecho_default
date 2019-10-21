@@ -52,14 +52,14 @@
             <img src="<?php $this->options->headerIcon(); ?>">
             <h3><?php $this->options->sideName(); ?></h3>
         </div>
-        <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
+        <?php $this->widget('Widget_Metas_Category_List')->to($pages); ?>
         <ul class="nav">
             <li <?php if($this->is('index')): ?> class="active"<?php endif; ?>>
                 <a href="<?php $this->options->siteUrl(); ?>"><?php _e('首页'); ?></a>
             </li>
-            <?php while($pages->next()): ?>
-                <li <?php if($this->is('page', $pages->slug)): ?> class="active"<?php endif; ?>>
-                    <a href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
+            <?php while($array = $pages->next()): ?>
+                <li <?php if($this->is('category', $pages->slug)): ?> class="active"<?php endif; ?>>
+                    <a href="<?php $pages->permalink(); ?>" title="<?php echo $array['name'];?>"><?php echo $array['name']; ?></a>
                 </li>
             <?php endwhile; ?>
         </ul>
