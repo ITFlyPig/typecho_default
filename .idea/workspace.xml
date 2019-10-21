@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bae78bc4-f4a8-4356-b3bc-e7524d8ce418" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/usr/themes/default/page2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.inc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install.php" beforeDir="false" afterPath="$PROJECT_DIR$/install.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usr/themes/default/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/usr/themes/default/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usr/themes/default/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/usr/themes/default/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/Typecho/Widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/Typecho/Widget.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +31,22 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" port="3346" />
   <component name="ProjectId" id="1SKa5ptBC5N818spZNm7HaWDJsH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/usr/themes/default" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/usr/themes/default" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,7 +82,8 @@
       <workItem from="1571363765320" duration="238000" />
       <workItem from="1571371471548" duration="2571000" />
       <workItem from="1571384677276" duration="13216000" />
-      <workItem from="1571557933554" duration="271000" />
+      <workItem from="1571557933554" duration="10906000" />
+      <workItem from="1571622359860" duration="7908000" />
     </task>
     <servers />
   </component>
@@ -96,11 +103,28 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="index.php">
-        <watch expression="self::$_routingTable" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/var/Widget/Archive.php</url>
+          <line>426</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/usr/themes/default/header.php</url>
+          <line>56</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/var/Widget/Archive.php</url>
+          <line>1921</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
